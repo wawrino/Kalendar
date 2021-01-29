@@ -14,6 +14,7 @@ class Selectable extends React.Component {
 
   handleSelect = ({ start, end }) => {
     const title = window.prompt('New Event name')
+    console.log("DUPA");
     if (title)
       this.setState({
         events: [
